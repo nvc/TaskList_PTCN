@@ -38,3 +38,27 @@ c:\users\taipt\documents\visual studio 2012\Projects\bTaskMVC\bTaskMVC\obj\Debug
 c:\users\taipt\documents\visual studio 2012\Projects\bTaskMVC\bTaskMVC\obj\Debug\bTaskMVC.pdb
 C:\Users\taipt\Documents\Visual Studio 2012\Projects\bTaskMVC\bTaskMVC\bin\Newtonsoft.Json.dll
 C:\Users\taipt\Documents\Visual Studio 2012\Projects\bTaskMVC\bTaskMVC\bin\Newtonsoft.Json.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\bTaskMVC.dll
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\bTaskMVC.pdb
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\Newtonsoft.Json.dll
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\System.Net.Http.Formatting.dll
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\System.Web.Http.dll
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\System.Web.Http.WebHost.dll
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\Newtonsoft.Json.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\System.Net.Http.Formatting.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\System.Web.Http.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\System.Web.Http.WebHost.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\Microsoft.Web.Infrastructure.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\EntityFramework.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\DotNetOpenAuth.Core.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\DotNetOpenAuth.OAuth.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\DotNetOpenAuth.OpenId.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\DotNetOpenAuth.AspNet.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\obj\Debug\bTaskMVC.csprojResolveAssemblyReference.cache
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\obj\Debug\bTaskMVC.dll
+C:\VTCProjects\Task\TaskList_PTCN\bTaskMVC\obj\Debug\bTaskMVC.pdb
