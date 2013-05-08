@@ -1,0 +1,16 @@
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\TaskManager.dll
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\TaskManager.pdb
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\Newtonsoft.Json.dll
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\System.Data.Linq.dll
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\System.Net.Http.Formatting.dll
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\System.Web.Http.dll
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\System.Web.Http.WebHost.dll
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\Newtonsoft.Json.xml
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\System.Net.Http.Formatting.xml
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\System.Web.Http.xml
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\System.Web.Http.WebHost.xml
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\bin\Microsoft.Web.Infrastructure.xml
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\obj\Debug\TaskManager.dll
+C:\VTCProjects\Task\TaskList_PTCN\TaskManager\obj\Debug\TaskManager.pdb
