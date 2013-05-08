@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace bTaskMVC.Controllers
+namespace TaskManager.Controllers
 {
     public class ValuesController : ApiController
     {

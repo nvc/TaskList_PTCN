@@ -4,9 +4,9 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using bTaskMVC.App_Code.DTO;
+using TaskManager.App_Code.DTO;
 
-namespace bTaskMVC.Controllers
+namespace TaskManager.Controllers
 {
     public class TaskController : ApiController
     {

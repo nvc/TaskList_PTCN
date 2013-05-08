@@ -4,16 +4,21 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using bTaskMVC.App_Code.DTO;
+using TaskManager.App_Code.DTO;
+using TaskManager.ContextData;
 
-namespace bTaskMVC.Controllers
+namespace TaskManager.Controllers
 {
     public class AccountsController : ApiController
     {
+        TaskDataDataContext taskData = new TaskDataDataContext();
+
         // GET api/values
-        public Accounts Get()
+        public IEnumerable<tblUser> Get()
         {
-            return new Accounts();
+            var users = from u in taskData.tblUsers select u;
+
+            return users;
         }
 
 

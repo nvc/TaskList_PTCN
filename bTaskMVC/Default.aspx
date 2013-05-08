@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="bTaskMVC._Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="TaskManager._Default" %>
 
 <%@ Import Namespace="System.Web.Optimization" %>
 
@@ -20,10 +20,8 @@
     <body class="container-fluid" id="main">
     <div id="todo-app"></div>
     <script type="text/javascript" src="Scripts/main.js"></script>
-    <!-- Git -->
 
-
-    <%--    <%: Scripts.Render("~/bundles/lib") %>
+    <%-- <%: Scripts.Render("~/bundles/lib") %>
 
     <%: Scripts.Render("~/bundles/app") %>
     <%: Scripts.Render("~/bundles/routers") %>

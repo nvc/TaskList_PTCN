@@ -3,7 +3,7 @@
 using System.Linq;
 using System.Web.Http.ModelBinding;
 
-namespace bTaskMVC
+namespace TaskManager
 {
     using System.Web.Http;
 

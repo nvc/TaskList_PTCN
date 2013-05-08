@@ -6,9 +6,9 @@ using System.Web.Http;
 using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
-using bTaskMVC;
+using TaskManager;
 
-namespace bTaskMVC
+namespace TaskManager
 {
     public class Global : HttpApplication
     {
