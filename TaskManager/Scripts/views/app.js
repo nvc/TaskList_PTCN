@@ -2,9 +2,11 @@ define([
   'text!templates/app.html'
 , 'views/lists/add'
 , 'views/lists/edit'
+, 'views/accounts/accountlist'
+, 'collections/accounts'
 ],
 
-function(template, AddListView, EditListView) {
+function (template, AddListView, EditListView, AccountListView, Accounts) {
   var AppView = Backbone.View.extend({
     id: 'main',
     tagName: 'div',
@@ -23,8 +25,18 @@ function(template, AddListView, EditListView) {
     },
 
     render: function() {
-      this.$el.html(this.template());
-      return this;
+        this.$el.html(this.template());
+
+        this.accounts = new Accounts();
+        this.accountListView = new AccountListView({ collection: this.accounts });
+        var self = this;
+        this.accounts.fetch({
+            success: function () {
+                window.bTask.views.app.$el.find('#accountlist-container').html(self.accountListView.render().el);
+            }
+        });
+
+        return this;
     },
 
     listForm: function(form) {

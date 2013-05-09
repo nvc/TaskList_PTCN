@@ -203,6 +203,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\collections\accounts.js" />
     <Content Include="Scripts\collections\tasklists.js" />
     <Content Include="Scripts\collections\tasks.js" />
     <Content Include="Scripts\config.js" />
@@ -215,9 +216,12 @@
     <Content Include="Scripts\lib\text.js" />
     <Content Include="Scripts\lib\underscore-min.js" />
     <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\models\account.js" />
     <Content Include="Scripts\models\task.js" />
     <Content Include="Scripts\models\tasklist.js" />
     <Content Include="Scripts\routes.js" />
+    <Content Include="Scripts\templates\accounts\account.html" />
+    <Content Include="Scripts\templates\accounts\accountlist.html" />
     <Content Include="Scripts\templates\app.html" />
     <Content Include="Scripts\templates\auth.html" />
     <Content Include="Scripts\templates\lists\form.html" />
@@ -225,6 +229,8 @@
     <Content Include="Scripts\templates\tasks\edit.html" />
     <Content Include="Scripts\templates\tasks\index.html" />
     <Content Include="Scripts\templates\tasks\task.html" />
+    <Content Include="Scripts\views\accounts\account.js" />
+    <Content Include="Scripts\views\accounts\accountlist.js" />
     <Content Include="Scripts\views\app.js" />
     <Content Include="Scripts\views\auth.js" />
     <Content Include="Scripts\views\lists\add.js" />
@@ -249,7 +255,7 @@
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="ContextData\TaskData.designer.cs">
+    <Compile Include="ApplicationData\TaskData.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>TaskData.dbml</DependentUpon>
@@ -270,7 +276,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ContextData\TaskData.dbml">
+    <Content Include="ApplicationData\TaskData.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>TaskData.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
@@ -286,7 +292,7 @@
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ContextData\TaskData.dbml.layout">
+    <None Include="ApplicationData\TaskData.dbml.layout">
       <DependentUpon>TaskData.dbml</DependentUpon>
     </None>
   </ItemGroup>

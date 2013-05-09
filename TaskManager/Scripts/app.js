@@ -1,6 +1,6 @@
 define([
-  'gapi'
-, 'routes'
+  //'gapi'
+ 'routes'
 , 'views/app'
 , 'views/auth'
 , 'views/lists/menu'
@@ -8,15 +8,15 @@ define([
 , 'collections/tasks'
 ],
 
-function(ApiManager, Routes, AppView, AuthView, ListMenuView, TaskLists, Tasks) {
+function(/*ApiManager,*/ Routes, AppView, AuthView, ListMenuView, TaskLists, Tasks) {
   var App = function() {
     this.routes = new Routes();
 
     this.collections.lists = new TaskLists();
     this.views.app = new AppView();
     this.views.app.render();
-    this.views.auth = new AuthView(this);
-    this.views.auth.render();
+   // this.views.auth = new AuthView(this);
+   // this.views.auth.render();
     this.views.listMenu = new ListMenuView({ collection: this.collections.lists });
 
     this.connectGapi();
@@ -25,7 +25,9 @@ function(ApiManager, Routes, AppView, AuthView, ListMenuView, TaskLists, Tasks) 
   App.prototype = {
     views: {},
     collections: {},
-    connectGapi: function() {
+    connectGapi: function () {
+        Backbone.history.start();
+        /*
       var self = this;
       this.apiManager = new ApiManager(this);
       this.apiManager.on('ready', function() {
@@ -33,7 +35,7 @@ function(ApiManager, Routes, AppView, AuthView, ListMenuView, TaskLists, Tasks) 
           self.views.listMenu.render();
           Backbone.history.start();
         }});
-      });
+      });*/
     }
   };
 

@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TaskManager.ContextData
+namespace TaskManager.ApplicationData
 {
 	using System.Data.Linq;
 	using System.Data.Linq.Mapping;
